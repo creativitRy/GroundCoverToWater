@@ -25,6 +25,9 @@
 
 ///////////CODE/////////////
 
+if (parseInt(org.pepsoft.worldpainter.Version.BUILD) <= 20160820173357)
+    throw "Update WorldPainter!";
+
 print("Script by ctRy");
 
 // https://github.com/Captain-Chaos/WorldPainter/blob/master/WorldPainter/WPCore/src/main/java/org/pepsoft/worldpainter/layers/groundcover/GroundCoverLayerExporter.java
